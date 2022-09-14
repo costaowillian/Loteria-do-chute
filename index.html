@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Loteria do Chute</title>
+</head>
+<body>
+    <header class="header">
+        <h1> LOTERIA DO CHUTE</h1>
+    </header>
+
+    <main class="main">
+        <section class="mainTexto">
+            <div class="texto">
+                <h2 id="cTexto">Qual o número de hoje?</h2>
+            </div>
+        </section>
+
+        <section class="game">
+            <div id="resultado">
+                <h3 id="textoResultado"></h3>
+            </div>
+
+            <div class="jogo" id="tenativa1">
+                <input id="tentativa1Um" class="number" type="number" max="9" min="0" maxlength="1">
+                <input id="tentativa1Dois" class="number" type="number" max="1" min="1">
+                <input id="tentativa1Tres" class="number" type="number" max="1" min="1">
+                <input id="tentativa1Quatro" class="number" type="number" max="1" min="1">
+            </div>
+
+            <!-- <div class="jogo" id="tenativa2">
+                <input id="tentativa2Um" class="number" type="number" max="1" min="1">
+                <input id="tentativa2Dois" class="number" type="number" max="1" min="1">
+                <input id="tentativa2Tres" class="number" type="number" max="1" min="1">
+                <input id="tentativa2Quatro" class="number" type="number" max="1" min="1">
+            </div>
+
+            <div class="jogo" id="tenativa3">
+                <input id="tentativa3Um" class="number" type="number" max="1" min="1">
+                <input id="tentativa3Dois" class="number" type="number" max="1" min="1">
+                <input id="tentativ3Tres" class="number" type="number" max="1" min="1">
+                <input id="tentativa3Quatro" class="number" type="number" max="1" min="1">
+            </div>
+
+            <div class="jogo" id="tenativa4">
+                <input id="tentativa4Um" class="number" type="number" max="1" min="1">
+                <input id="tentativa4Dois" class="number" type="number" max="1" min="1">
+                <input id="tentativa4Tres" class="number" type="number" max="1" min="1">
+                <input id="tentativa4Quatro" class="number" type="number" max="1" min="1">
+            </div> -->
+            
+            <div id="chutes">
+                <h3 id="numeroChutado"></h3>
+            </div>
+
+
+            <div class="chutar">
+                <button id="chutar" onclick="Chutar()">
+                    <span>chutar</span>
+                </button>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <p class="footer">2022 | Willian Costa</p>
+    </footer>
+    
+    <script src="logica1.js" type="text/javascript"></script>
+
+</body>
+</html>

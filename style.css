@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+}
+
+body {
+    background: #063240;
+}
+
+/* head */
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+
+    color: #FFFFFF;
+}
+/* head */
+
+/* main*/
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 36px;
+}
+
+.main .mainTexto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    color: #FFFFFF;
+}
+
+.main .game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 14px;
+}
+
+.main .game .resultado {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    background: #10A8D8;
+    border-radius: 12px;
+
+    width: 292px;
+    height: 61px;
+    padding: 8px 12px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.main .game .jogo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.main .game .jogo .number {
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+
+    
+    width: 75.09px;
+    height: 69.73px;
+    background: #D9D9D9;
+    border-radius: 6px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    text-align: center;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+.main .game .jogo .acertou {
+    width: 75.09px;
+    height: 69.73px;
+    border-radius: 6px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    color: #FFFFFF;
+    text-align: center;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+  
+   background: #00FFA3;
+}
+
+.main .game .jogo .lugarErrado {
+    width: 75.09px;
+    height: 69.73px;
+    border-radius: 6px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    text-align: center;
+    color: #FFFFFF;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+  
+   background: #D7C100;
+}
+
+.main .game .jogo .errado {
+    width: 75.09px;
+    height: 69.73px;
+    border-radius: 6px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    text-align: center;
+    color: #FFFFFF;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+  
+   background: #605F65;
+}
+
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.game .resultado {
+    width: 75.09px;
+    height: 69.73px;
+    border-radius: 6px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    color: #FFFFFF;
+    text-align: center;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+  
+   background: #00FFA3;
+}
+
+.main .chutar #chutar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    width: 171px;
+    height: 41px;
+
+    background: #3F9DD2;
+    border-radius: 13px;
+    border: 0;
+    outline: 0;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+
+    color: #FFFFFF;
+    
+    margin-top: 24px;
+    cursor: pointer;
+}
+/* main */
+
+/* footer */
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+    margin-top: 10vh;
+}
+
+footer .footer {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+
+    color: #FFFFFF;
+
+}
+/* footer */
